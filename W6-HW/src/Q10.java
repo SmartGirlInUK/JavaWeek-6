@@ -14,8 +14,8 @@ public class Q10 {
         int num = in.nextInt();//Read and store value in variable from user
 
         //For loop to calculate multiplication table for the given number from user
-        for (int i = 0; i < 10; i++) {
-            System.out.println(num + " x " + (i + 1) + " = " + (num * (i + 1)));//Calculate and print each line
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(num + " x " + i + " = " + (num * i ));//Calculate and print each line
         }
     }
 }
